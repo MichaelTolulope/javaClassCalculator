@@ -1,0 +1,32 @@
+.root{
+    -fx-background-color:#18191a;
+}
+#calculator-screen{
+    -fx-background-color:transparent;
+    -fx-text-fill:white;
+    -fx-font-size:40px;
+    -fx-alignment:center-right;
+}
+ /*#616161*/
+Button{
+ -fx-background-color:#242526;
+ -fx-font-size: 25px;
+ -fx-text-fill: white;
+ -fx-background-radius: 50px;
+ /*-fx-transition: 1s;*/
+
+}
+Button:hover{
+    -fx-background-color:white;
+    -fx-text-fill:#242526;
+}
+Button:pressed{
+    -fx-transform:scale(1.5);
+}
+
+#close-window-button{
+    -fx-background-color:red;
+    -fx-font-size:25px;
+    -fx-text-fill:white;
+    -fx-font-weight:500;
+}
